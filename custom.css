@@ -1,0 +1,128 @@
+/*
+General
+*/
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  
+  font-family: 'Droid Serif', serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  color: #565656;
+  background-color: #f6F6f6;
+}
+
+header, nav, footer, section, article, div {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+img,embed,object,video{
+  max-width:100%;
+}
+
+h1,h2 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+h3,h4 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.pink {
+	color: #f47771;
+}
+
+b {
+	color: #222222;
+}
+/*
+Header
+*/ 
+
+header {
+	padding: 40px 20px;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+header .title {
+	font-family: 'Lobster Two', cursive;
+	font-size: 6em;
+	display: block;
+	text-transform: uppercase;
+}
+header .tagline {
+	font-size: 1.3em;
+}
+
+/*
+main
+*/ 
+
+main {
+	padding-top: 20px;
+}
+
+.heading {
+	padding: 20px 0;
+	margin: 20px 0;
+
+}
+
+.details {
+	padding: 1em;
+}
+
+/*
+nav
+*/ 
+
+
+/*
+entries
+*/ 
+
+.before {
+	margin-bottom: 20px; 
+	position: relative;
+}
+
+.dayNum {
+	display: inline-block;
+	font-size: 2.3em;
+	font-family: 'Lobster Two', cursive;
+	padding-top: 15px;
+}
+
+.dayNum:after {
+	display: inline-block;
+	position: absolute;
+	content: '/';
+	font-size: 2.8em;
+	left: 50px;
+	top: -10px;
+}
+
+.dayDetails {
+	margin-left:90px;
+	/*overflow: hidden;*/
+}
