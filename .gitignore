@@ -1,4 +1,5 @@
-I.DS_Store
+landscape/
+.DS_Store
 Thumbs.db
 db.json
 *.log
